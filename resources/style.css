@@ -3,16 +3,21 @@ body {
   text-align: center;
   background-color: black;
   color: white;
+  margin: 0; 
+  padding: 0;
 }
 
 h1 {
   font-weight: normal;
   font-size: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px; 
 }
 
 a {
   color: aquamarine;
   font-size: 16px;
+  text-decoration: none; 
 }
 
 h2 {
