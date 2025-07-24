@@ -1,40 +1,99 @@
+html {
+  display: block; 
+}
+
 body {
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
   text-align: center;
   background-color: black;
   color: white;
-  margin: 0; 
-  padding: 0;
 }
-
+/* titulo principal */
 h1 {
   font-weight: normal;
   font-size: 50px;
-  margin-top: 60px;
-  margin-bottom: 20px; 
 }
 
+/* enlaces */
 a {
   color: aquamarine;
-  font-size: 16px;
-  text-decoration: none; 
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
-
+/* subtitulo */
 h2 {
+  display: block;
   font-weight: 300;
-  font-size: 42px;
+  font-size: 42px; 
+  margin-block-start:0.83em;
+  margin-block-end:0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
+/* texto descriptivo */
 p {
   font-size: 21px;
+  font-family: verdana, sans-serif; 
   color: gray;
-}
+  height: 25.6px; 
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
+  display: block; 
+  text-align: center;
+  width: 1140px; 
 
+}
+/* footer */
 footer {
+  display: block; 
+  font-family: verdana, sans-serif;
+  height: 25.6px;
   text-align: right;
-  color: gray;
+  width: 1140px; 
 }
 
-video, img {
-  width: 100%;
+footer p {
+  font-size: 21px;
+  color: gray;
+  text-align: right;
+}
+
+/* video */
+video {
+object-fit: contain;
+overflow-clip-margin: content-box;
+overflow: clip; 
+}
+/* imagen */
+img {
+  display: block; 
+  margin: 15px auto;
+overflow-clip-margin: content-box;
+overflow: clip;
+}  
+/* subtitulo download */
+a.cta {
+  font-size: 16px;
+  text-decoration-color: aquamarine;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  width: auto; 
+}
+
+/* imagen app */
+img.app {
+  color: rgb(128, 128, 128);
+  display: inline; 
+  font-family: verdana, sans-serif;
+  font-size: 21px;
+  height: 108px;
+  text-align: center; 
+  width: 64px; 
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
 }
